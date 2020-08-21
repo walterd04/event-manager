@@ -1,0 +1,13 @@
+{
+  "name": "event-manager",
+  "version": "0.0.1",
+  "description": "Event manager where users can schedule, change, and invite friends to events.",
+  "repository": "https://github.com/walterd04/event-manager",
+  "author": "Devin Walter <walterd04@mounties.mansfield.edu>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {},
+  "devDependencies": {},
+  "dependencies": {},
+  "workspaces": {}
+}
