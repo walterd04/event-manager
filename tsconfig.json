@@ -20,7 +20,8 @@
     "skipDefaultLibCheck": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "experimentalDecorators": true
   },
   "include": ["mobile/**/*", "web/**/*", "server/**/*", "shared/**/*"],
   "exclude": ["node_modules"]

@@ -7,8 +7,8 @@
 - [x] - Setup Mono Repo [Lerna](https://lerna.js.org/)
 - [x] - Setup lerna/husky/lint-staged
 - [x] - Setup linting (eslint, prettier)
-- [ ] - Setup frontend infra (React)
-- [ ] - Setup global builds (Webpack, babel)
+- [x] - Setup frontend infra (React)
+- [x] - Setup global builds (Webpack, babel)
 - [ ] - Setup Backend Infra [NestJS](https://docs.nestjs.com/microservices/basics)
 - [ ] - Setup microservices with Nest
 - [ ] - Setup GitHub action builds
