@@ -1,11 +1,6 @@
 import React from 'react';
+import { HelloWorld } from '@event-manager/core-ui';
 
-export interface HelloWorldProps {
-  username: string;
-}
-
-const App = (props: HelloWorldProps) => (
-  <h1>Hi {props.username} from React!</h1>
-);
+const App = () => <HelloWorld />;
 
 export default App;

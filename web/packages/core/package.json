@@ -1,0 +1,9 @@
+{
+  "name": "core",
+  "version": "0.0.1",
+  "description": "Non-UI core parts of our app",
+  "main": "index.ts",
+  "author": "Devin Walter",
+  "license": "MIT",
+  "private": true
+}

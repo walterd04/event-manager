@@ -24,6 +24,16 @@ module.exports = {
       },
     },
   },
+  devServer: {
+    open: true,
+    host: '0.0.0.0',
+    port: '3000',
+    openPage: 'http://localhost:3000',
+    publicPath: '/',
+    hot: true,
+    useLocalIp: true,
+    compress: true,
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'src', 'index.html'),
