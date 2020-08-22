@@ -1,0 +1,16 @@
+#IDE
+.vs_code
+.idea
+.history
+
+# Dependencies
+/node_modules
+/**/node_modules/*
+
+# Production
+dist/
+build/
+
+# Yarn
+yarn-debug.log*
+yarn-error.log*

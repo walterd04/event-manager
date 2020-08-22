@@ -1,0 +1,11 @@
+# IDE
+.vscode
+.idea
+
+# Dependencies
+/node_modules
+/**/node_modules/**
+
+# Prod
+/build
+/dist

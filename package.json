@@ -6,8 +6,34 @@
   "author": "Devin Walter <walterd04@mounties.mansfield.edu>",
   "license": "MIT",
   "private": true,
-  "scripts": {},
-  "devDependencies": {},
+  "scripts": {
+    "depcheck": "lerna exec --stream --no-bail --reject-cyles -- depcheck ./ --skip-missing=true",
+    "depcheck:changed": "lerna exec --stream --no-bail --reject-cycles --since origin/master --include-dependents -- depcheck --skip-missing=true",
+    "lint": "lerna exec --no-bail -- eslint . --ext .js,.jsx,.ts,.tsx,.json",
+    "lint:changed": "lerna exec --no-bail --since origin/master --include-dependents -- eslint . --ext .js,.jsx,.ts,.tsx,.json",
+    "test": "lerna run --stream test",
+    "test:changed": "lerna run --stream --since origin/master --include-dependants test",
+    "typecheck": "lerna exec --no-bail -- tsc --noEmit",
+    "typecheck:changed": "lerna exec --no-bail --since origin/master --include dependents -- tsc --noEmit"
+  },
   "dependencies": {},
-  "workspaces": {}
+  "workspaces": {},
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-typescript": "^9.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "eslint-plugin-styled-components-a11y": "^0.0.16",
+    "husky": "^4.2.5",
+    "jest": "^26.4.1",
+    "lerna": "^3.22.1",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5",
+    "typescript": "^4.0.2"
+  }
 }
