@@ -3,10 +3,10 @@
 ## First Day / App Setup
 
 - [x] - Create yarn app
-- [ ] - Setup [Yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/)
+- [x] - Setup [Yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/)
 - [x] - Setup Mono Repo [Lerna](https://lerna.js.org/)
-- [ ] - Setup lerna/husky/lint-staged
-- [ ] - Setup linting (eslint, prettier)
+- [x] - Setup lerna/husky/lint-staged
+- [x] - Setup linting (eslint, prettier)
 - [ ] - Setup frontend infra (React)
 - [ ] - Setup global builds (Webpack, babel)
 - [ ] - Setup Backend Infra [NestJS](https://docs.nestjs.com/microservices/basics)

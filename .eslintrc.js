@@ -45,7 +45,7 @@ module.exports = {
     '@typescript-eslint/prefer-regexp-exec': 'warn',
     '@typescript-eslint/require-await': 'warn',
     'no-console': 'warn',
-    'prefer-template': 'error',
+    'prefer-template': 'warn',
     'no-return-assign': ['error', 'except-parens'],
     'react-hooks/exhaustive-deps': 'error',
     curly: 'warn',

@@ -16,9 +16,25 @@
     "typecheck": "lerna exec --no-bail -- tsc --noEmit",
     "typecheck:changed": "lerna exec --no-bail --since origin/master --include dependents -- tsc --noEmit"
   },
-  "dependencies": {},
-  "workspaces": {},
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.3.0"
+  },
+  "workspaces": [
+    "shared/*",
+    "web/app",
+    "web/packages/*"
+  ],
   "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/plugin-proposal-export-namespace-from": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "7.10.4",
+    "@babel/polyfill": "7.10.4",
+    "@babel/runtime": "^7.11.2",
+    "babel-loader": "8.1.0",
     "eslint": "^7.7.0",
     "eslint-config-airbnb-typescript": "^9.0.0",
     "eslint-config-prettier": "^6.11.0",
@@ -30,10 +46,12 @@
     "eslint-plugin-react-hooks": "^4.1.0",
     "eslint-plugin-styled-components-a11y": "^0.0.16",
     "husky": "^4.2.5",
+    "intersection-observer": "0.11.0",
     "jest": "^26.4.1",
     "lerna": "^3.22.1",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
-    "typescript": "^4.0.2"
+    "typescript": "^4.0.2",
+    "whatwg-fetch": "3.4.0"
   }
 }

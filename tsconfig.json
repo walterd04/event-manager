@@ -22,5 +22,6 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true
   },
-  "include": ["mobile/**/*", "web/**/*", "server/**/*"]
+  "include": ["mobile/**/*", "web/**/*", "server/**/*", "shared/**/*"],
+  "exclude": ["node_modules"]
 }
